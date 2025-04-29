@@ -13,6 +13,8 @@ function sumValues(num1, num2, add) {
     if (!add) {
         return false;
     }
+
+    else {return num1 + num2;}
 }
 
 /**
@@ -26,7 +28,7 @@ function discountPrices(prices, discount) {
     if (!Array.isArray(prices) || typeof discount !== 'number') {
         return false;
     }
-    
+
     if (prices.length === 0) {
         return false;
     }
